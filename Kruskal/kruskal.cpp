@@ -174,7 +174,7 @@
     cout  << "-o <arquivo> : redireciona a saida para o ‘‘arquivo’’" << endl;
     cout  << "-f <arquivo> : indica o ‘‘arquivo’’ que contém o grafo de entrada" << endl;
     cout  << "-s : mostra a solução (em ordem crescente)" << endl;
-    cout  << "-i : vértice inicial (para o algoritmo de Prim)" << endl;
+
 
     }
     
@@ -198,9 +198,6 @@
                 file = 1;
             } else if(strcmp(argv[i], "-s")==0){
                 order = 1;
-            } else if(strcmp(argv[i], "-i")==0){
-                src = std::stoi(argv[i+1]);
-            }
         }
 
         if(file!=1){
