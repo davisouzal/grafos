@@ -10,7 +10,6 @@ Instruções:
 -f <arquivo> : indica o ‘‘arquivo’’ que contém o grafo de entrada
 -s : mostra a solução (em ordem crescente)
 -i : vértice inicial (para o algoritmo de Prim)
-
 ```
 
 Todos os algortimos recebem dad seguinte maneira:
