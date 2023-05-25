@@ -13,7 +13,7 @@ Instruções:
 ```
 
 Todos os algortimos recebem dad seguinte maneira:
-    nº de vértices, nº de arestas
+    nº de vértices, nº de arestas \n
     M arestas
     
 
